@@ -109,7 +109,7 @@ span {
 }
 
 
-.panel{
+.panel {
     height: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -119,17 +119,42 @@ span {
 
 }
 
-.panel-ops p{
+.panel-ops p {
     display: inline;
     margin-left: 15px;
 }
 
-.panel-ops{
+.panel-ops {
     width: 70%;
     font-size: 0.85rem;
 }
 
-.panel-deals{
+.panel-deals {
     font-weight: 700;
     font-size: 0.90rem;
+}
+
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.hero-msg  a {
+    color: #007185;
 }
